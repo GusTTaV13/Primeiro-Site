@@ -28,12 +28,7 @@ export const NavBar = () => {
               </a>
             </ItemListStyled>
             <ItemListStyled>
-              <a
-                href="https://www.youtube.com/watch?v=xqFTe96OWPU"
-                target="_blank"
-              >
-                Features
-              </a>
+              <Link to="/features">Features</Link>
             </ItemListStyled>
             <ItemListStyled>
               <a href="/marketplace">Marketplace</a>

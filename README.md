@@ -9,3 +9,4 @@ Comandos Git
 - `git add .` (Adicionar alterações)
 - `git commit -m "mensagem"` (Commitar)
 - `git push` (Dar push)
+- `Função anonima -> não tem nome`

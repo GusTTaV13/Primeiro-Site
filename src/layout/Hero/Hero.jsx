@@ -1,5 +1,4 @@
-import { useState } from "react";
-import ImagemHero from "../../src/assets/imagem-hero.jpg";
+import ImagemHero from "../../../src/assets/imagem-hero.jpg";
 import {
   MainHeroContainer,
   MainGridHeroContainer,
@@ -11,6 +10,22 @@ import {
 } from "./Hero.styled";
 
 export const Hero = () => {
+  // const [corFundo, setCorFundo] = useState("black");
+  // const [contador, setContador] = useState(0);
+
+  // function handleChangeCorFundo() {
+  //   // if (corFundo === "black") setCorFundo("white");
+  //   // else setCorFundo("black");
+  //   corFundo === "black" ? setCorFundo("white") : setCorFundo("black");
+  // }
+
+  // useEffect(() => {
+  //   if (contador % 2 === 0) {
+  //     setCorFundo("yellow");
+  //   } else {
+  //     setCorFundo("green");
+  //   }
+  // }, [contador]);
   return (
     <>
       <MainHeroContainer>
@@ -24,8 +39,8 @@ export const Hero = () => {
               Qui irure qui lorem cupidatat commodo.
             </SubTitleStyled>
             <ButtonContainer>
-              <ButtonPrimary>Get Started</ButtonPrimary>
-              <ButtonSecondary>Learn more →</ButtonSecondary>
+              <ButtonPrimary onClick={() => {}}>Get Started</ButtonPrimary>
+              <ButtonSecondary onClick={() => {}}>Learn more →</ButtonSecondary>
             </ButtonContainer>
           </div>
           <img src={ImagemHero} alt="" />
